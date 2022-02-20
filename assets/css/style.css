@@ -1124,13 +1124,14 @@ section {
   border-color: #68A4C4;
   color: #68A4C4;
 }
+/* cambio de margenes y radios de las imagenes en productos*/
 .portfolio .portfolio-item {
   background: #1e4356;
   overflow: hidden;
   min-height: 200px;
   position: relative;
-  border-radius: 4px;
-  margin: 0 0 30px 0;
+  border-radius: 10px; /*radios de los bordes*/
+  margin: 5px 5px 5px 5px; /*cambio de margenes entre imagenes*/
 }
 .portfolio .portfolio-item img {
   transition: all 0.3s ease-in-out;
