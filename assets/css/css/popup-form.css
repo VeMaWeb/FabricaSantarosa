@@ -50,7 +50,6 @@ radial-gradient(transparent 66%, transparent 66%);}
 .popup-form span.sub-text{bottom:90px;color:#ce0606;font-size:14px;position:absolute;right:50px;}
 .popup-form .has-error .form-control{border-color:#ce0606;}
 .popup-form .has-error .input-group-icon{background-color:#ce0606;color:#ffffff;}
-.popup-form .help-block{color:#ce0606;font-size:14px;margin:0;padding-left:42px;position:absolute;top:-20px;}
 .popup-form .text-success{color:#37a000;}
 .popup-form .text-danger, .text-danger{color:#ce0606;}
 .popup-form .btn.disabled{opacity:1;}
