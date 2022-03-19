@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 120px; /*Se cambia el tamaño del logo*/
+  max-height: 110px; /*Se cambia el tamaño del logo*/
 }
 
 #main {
