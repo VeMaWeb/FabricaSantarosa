@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background:rgba(2, 2, 80, 0.91);
+  /*background:rgba(15, 5, 107, 0.247);*/ /*Color secundario del header*/
 }
 
 #header.header-transparent {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(2, 2, 80, 0.91);
+  background: rgb(255, 255, 255); /*Color del desplagado del menú*/
   height: 105px; /*Se cambia margen del logo para que se vea chingón*/
 }
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 110px; /*Se cambia el tamaño del logo*/
+  max-height: 95px; /*Se cambia el tamaño del logo*/
 }
 
 #main {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: rgb(74, 74, 74);  /* Cambio de color de letras menu*/
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a2cce3;
+  color: #0fddaa; /*Cambio de focus de letras menu*/
 }
 .navbar .dropdown ul {
   display: block;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(12, 19, 110, 0.8), rgba(14, 12, 110, 0.8)), url("../img/portada.JPG") center top no-repeat;
+  background: linear-gradient(to right, rgba(9, 48, 133, 0), rgba(245, 240, 240, 0)), url("../img/portada.JPG") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #eee9e900;/*Colo de curva en hero*/
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -320,8 +320,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 0;
 }
 #hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
+  color: #fff; /*Color de Bienvenidos a Santa Rosa*/
+  margin-bottom: 1px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -329,8 +329,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
+  margin: 0 auto 1px auto;
+  color: #fff; /*Color de parrafo de descripción*/
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -555,6 +555,11 @@ section {
 .services {
   padding-bottom: 20px;
 }
+
+#racki{
+  text-align: center;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
