@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 #header.header-scrolled {
-  background: rgba(2, 2, 80, 0.91);
+  background: rgb(15, 12, 43);
   height: 105px; /*Se cambia margen del logo para que se vea chingón*/
 }
 
@@ -1845,14 +1845,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #0f0c2b;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0d2735;
+  background: #0c0924;
 }
 #footer .footer-newsletter h4 {
   font-size: 24px;
@@ -1893,7 +1893,7 @@ section {
   background: #468db3;
 }
 #footer .footer-top {
-  background: #0d2735;
+  background: #0c0924;
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 60px 0 30px 0;
