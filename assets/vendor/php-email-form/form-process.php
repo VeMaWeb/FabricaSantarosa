@@ -29,16 +29,28 @@
 	$header = "MIME-Version: 1.0\r\n";
 	$header .= "Content-type: text/html; charset=UTF-8\r\n";
 	$header .= "From: ". $nombres . " <" . $email_cliente . ">\r\n";
-	$email='ventaspse@dimaltsa.com.mx';//Ingresa tu dirección de correo
+	$email='adminsr@santarosa.mx';//Ingresa tu dirección de correo
 	
 	$subject.="SOLICITUD DE COTIZACION DE ".$nombres;			
 	if (mail($email,$subject,$message,$header)){
-		echo 'success';
-	}	 else {
-		echo 'No se pudo enviar la solicitud de cotización.';
-	}
+	    ?>
+	    <script language = 'javascript'>
+		alert( 'Su correo ha sido enviado exitosamente, espere nuestra pronta respuesta';
+		history.go(-1);
+		</script>
+<?php
+
+
+	?>
+<script language = 'javascript'>
+	alert('Su correo ha sido enviado exitosamente, espere nuestra pronta respuesta');
+	history.go(-1);
+	</script>
+<?php
+}
+exit();
+
 	/*FINALIZA RECOLECTANDO DATOS PARA FUNCION MAIL*/
 	
 	
 	}
-?>
