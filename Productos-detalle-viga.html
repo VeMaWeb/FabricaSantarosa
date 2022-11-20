@@ -173,6 +173,7 @@
       <div class="offer-main-buttons">
         <div class="offer-main-button-btn" data-toggle="modal" data-target="#myQuoteModal">
           <span class="offer-main-button-btn-txt"><a href="#">COTIZAR</a></span>
+         
         </div><!--End offer-main-button-btn -->
        </div><!--End offer-main-buttons -->
 
@@ -208,7 +209,7 @@
       <div class="modal-body">
         
         <!-- start contact form -->
-        <form id="quoteForm" name="quoteForm" data-toggle="validator" class="popup-form" action="assets/vendor/php-email-form/form-process.php" method="post">
+        <form id="quoteForm" name="quoteForm" data-toggle="validator" class="popup-form">
           <div class="row">
             <div id="msgQuoteSubmit" class="hidden"></div>
             <div class="form-group col-sm-6">
@@ -261,7 +262,7 @@
             
             <div class="form-group col-sm-6">
               <div class="help-block with-errors"></div>
-              <select class="form-control" name="probudget" id="probudget" required data-error="Selecciona una medida">
+              <select class="form-control" name="mesure" id="mesure" required data-error="Selecciona una medida">
                 <option value="">Medidad</option>
                 <option value="12-3">12-3</option>
                 <option value="12-4">12-4</option>
@@ -328,8 +329,9 @@
             <p>Se el primero en recibir nuestras promociones</p>
           </div>
           <div class="col-lg-6">
-            <form action="" method="post">
+            <form action="forms/NLprocess.php" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
+              <div class="clearfix"></div>
             </form>
           </div>
         </div>
@@ -422,7 +424,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script src="assets/vendor/php-email-form/form-process.php"></script>
+  <script src="form-process.php"></script>
 
 
   <!-- ======= jQuery de los botones cotizador en detalles de producto ======= -->
