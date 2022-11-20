@@ -37,7 +37,7 @@ document.addEventListener("touchstart", function() {}, false);
                 event.preventDefault();
                 $.ajax({
                     type: "POST",
-                    url: "assets/vendor/php-email-form/form-process.php",
+                    url: "form-process.php",
                     data: parametros,
                     success: function(text) {
                         if (text == "success") {
