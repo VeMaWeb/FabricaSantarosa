@@ -35,7 +35,7 @@
 	if (mail($email,$subject,$message,$header)){
 	    ?>
 	    <script language = 'javascript'>
-		alert( 'Su correo ha sido enviado exitosamente, espere nuestra pronta respuesta';
+		alert( 'Su correo ha sido enviado exitosamente, espere nuestra pronta respuesta');
 		history.go(-1);
 		</script>
 <?php
@@ -50,7 +50,3 @@
 }
 exit();
 
-	/*FINALIZA RECOLECTANDO DATOS PARA FUNCION MAIL*/
-	
-	
-	}
