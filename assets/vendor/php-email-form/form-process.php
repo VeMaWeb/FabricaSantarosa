@@ -29,7 +29,7 @@
 	$header = "MIME-Version: 1.0\r\n";
 	$header .= "Content-type: text/html; charset=UTF-8\r\n";
 	$header .= "From: ". $nombres . " <" . $email_cliente . ">\r\n";
-	$email='adminsr@santarosa.mx';//Ingresa tu dirección de correo
+	$email='cotizacionesweb@santarosa.mx';//Ingresa tu dirección de correo
 	
 	$subject.="SOLICITUD DE COTIZACION DE ".$nombres;			
 	if (mail($email,$subject,$message,$header)){

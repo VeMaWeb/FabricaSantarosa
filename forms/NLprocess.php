@@ -10,7 +10,7 @@
 // (the same that SendBlaster uses in Manage Subscriptions Section)
 // ... please pay attention to the  ' ' apostrophes, they must remain around the email address.
 
-$emailmanager = 'adminsr@santarosa.mx';
+$emailmanager = 'cotizacionesweb@santarosa.mx';
 
 // SECOND:
 // save this file, and close it. Thank you!

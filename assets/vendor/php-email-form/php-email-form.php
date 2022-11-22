@@ -1,10 +1,5 @@
 <?php
-/**
- * PHP Email Form
- * Version: 3.2
- * Website: https://bootstrapmade.com/php-email-form/
- * Copyright: BootstrapMade.com
- */
+
 
 if ( version_compare(phpversion(), '5.5.0', '<') ) {
   die('PHP version 5.5.0 and up is required. Your PHP version is ' . phpversion());
@@ -31,11 +26,11 @@ class PHP_Email_Form {
   public $recaptcha_secret_key = false;
 
   public $error_msg = array(
-    'invalid_to_email' => 'Email to (receiving email address) is empty or invalid!',
-    'invalid_from_name' => 'From Name is empty!',
-    'invalid_from_email' => 'Email from: is empty or invalid!',
-    'invalid_subject' => 'Subject is too short or empty!',
-    'short' => 'is too short or empty!',
+    'invalid_to_email' => 'El correo electrónico a (dirección de correo electrónico de recepción) está vacío o no es válido.!',
+    'invalid_from_name' => 'De Nombre está vacío!',
+    'invalid_from_email' => 'Correo electrónico de: está vacío o no es válido!',
+    'invalid_subject' => 'El asunto es demasiado corto o está vacío!',
+    'short' => 'Es demasiado corto o vacío!',
     'ajax_error' => 'Sorry, the request should be an Ajax POST',
     'invalid_attachment_extension' => 'File extension not allowed, please choose:',
     'invalid_attachment_size' => 'Max allowed attachment size is:'
