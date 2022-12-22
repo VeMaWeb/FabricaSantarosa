@@ -4,7 +4,7 @@
 	height:60px;
 	bottom:70px;
 	right: 10px;
-	background-color:rgba(2, 2, 80, 0.91);
+	background-color:rgb(2, 255, 64);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -15,7 +15,7 @@
 .float:hover {
 	text-decoration: none;
 	color: rgba(2, 2, 80, 0.91);
-  background-color:#fff;
+  background-color:#1ca04d;
 }
 
 .my-float{
